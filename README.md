@@ -88,7 +88,20 @@ It is necessary to apply a grouping of lines first. As before the ***delta*** de
 neighbourhood-size. Two lines will be combined if the angle between them is ***(0/180) +- angle_epsilon***.
 
 # Examples
-![alt text](https://github.com/highkite/lineFinding/raw/master/src/common/images/sampleLineFinding_1.png "Input Image")
-![alt text](https://github.com/highkite/lineFinding/raw/master/src/common/images/sampleLineFinding_1_find.png "findLines(...)")
-![alt text](https://github.com/highkite/lineFinding/raw/master/src/common/images/sampleLineFinding_1_group.png "Group Lines")
-![alt text](https://github.com/highkite/lineFinding/raw/master/src/common/images/sampleLineFinding_1_combine.png "Combine Lines")
+The input image:<br>
+<img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1.png" width="100">
+
+After applying the grouping algorithm:<br>
+<img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1_group.png" width="450">
+
+And than the combination of similar lines:<br>
+<img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1_combine.png" width="450">
+
+The input image:<br>
+<img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3.png" width="100">
+
+After applying the grouping algorithm:<br>
+<img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3_group.png" width="450">
+
+And than the combination of similar lines:<br>
+<img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3_combine.png" width="450">
