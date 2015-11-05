@@ -134,6 +134,9 @@ class LineSegment(object):
         """
         self._vertical = True
 
+    def __repr__(self):
+        return self.__str__()
+
     def swapStartEnd(self):
         """
         Swaps the start and the end points of the line segment
