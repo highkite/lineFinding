@@ -270,6 +270,11 @@ def haveEqualSlope(line_1, line_2, angle_epsilon=None):
 	if not isinstance(line_1, LineSegment) or not isinstance(line_2, LineSegment):
 		raise ValueError("line_1, line_2 must be of type 'linefinding.LineSegment'")
 
+	# cover the case that two lines are adjacent at start points, but point in opposite directions
+	if isAdjacentPoint(line_1.x_start, line_1.y_start, line_2.x_start, line_2.y_start):
+		if line_1.y_end < line_2.y_start or line_1.x_end < line_2.x_start:
+			line_2.swapStartEnd()
+
 	if not None == angle_epsilon:
 		angle = computeAngle(line_1, line_2)
 		return -1 * angle_epsilon <= angle and angle <= angle_epsilon
@@ -339,8 +344,10 @@ def combineLinesWithEqualSlope_Rec(i, structure, angle_epsilon=None, delta=1):
 	"""
 	if len(structure) > i:
 		line_1 = structure[i]
-		for j in range(i+1, len(structure)):
+		for j in range(0, len(structure)):
 			line_2 = structure[j]
+			if line_1 == line_2:
+				continue
 
 			combinedLine = combineLines(line_1, line_2, angle_epsilon=angle_epsilon, delta=delta)
 
