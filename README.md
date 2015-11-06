@@ -88,20 +88,35 @@ It is necessary to apply a grouping of lines first. As before the ***delta*** de
 neighbourhood-size. Two lines will be combined if the angle between them is ***(0/180) +- angle_epsilon***.
 
 # Examples
-The input image:<br>
-<img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1.png" width="100">
 
-After applying the grouping algorithm:<br>
-<img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1_group.png" width="450">
+In the following there are some example applications of the algorithms. The parameter ***delta*** was set to
+***1*** and the ***angle_epsilon*** to ***50*** degree.
 
-And than the combination of similar lines:<br>
-<img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1_combine.png" width="450">
+## Example 1
+<table>
+  <tr>
+    <th>The input image</th>
+    <th>After applying the grouping algorithm</th>
+    <th>And than the combination of similar lines</th>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1.png" width="100"></td>
+    <td><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1_group.png" width="450"></td>
+    <td><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1_combine.png" width="450"></td>
+  </tr>
+</table>
 
-The input image:<br>
-<img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3.png" width="100">
+## Example 2
 
-After applying the grouping algorithm:<br>
-<img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3_group.png" width="450">
-
-And than the combination of similar lines:<br>
-<img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3_combine.png" width="450">
+<table>
+  <tr>
+    <th>The input image</th>
+    <th>After applying the grouping algorithm</th>
+    <th>And than the combination of similar lines</th>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3.png" width="100"></td>
+    <td><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3_group.png" width="450"></td>
+    <td><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3_combine.png" width="450"></td>
+  </tr>
+</table>
