@@ -100,9 +100,9 @@ In the following there are some example applications of the algorithms. The para
     <th>And than the combination of similar lines</th>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1.png" width="100"></td>
-    <td><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1_group.png" width="450"></td>
-    <td><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1_combine.png" width="450"></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1.png" width="100"></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1_group.png" width="250"></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_1_combine.png" width="250"></td>
   </tr>
 </table>
 
@@ -115,8 +115,8 @@ In the following there are some example applications of the algorithms. The para
     <th>And than the combination of similar lines</th>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3.png" width="100"></td>
-    <td><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3_group.png" width="450"></td>
-    <td><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3_combine.png" width="450"></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3.png" width="100"></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3_group.png" width="250"></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/highkite/lineFinding/master/documentation/images/sampleLineFinding_3_combine.png" width="250"></td>
   </tr>
 </table>
